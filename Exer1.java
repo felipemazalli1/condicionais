@@ -2,9 +2,9 @@ import java.util.Scanner;
 public class Exer1{
     public static void main(String[]args){
         Scanner ler = new Scanner(System.in);
-        int n;
+        int num;
         System.out.printf("Digite um numero:");
-        n = ler.nextInt();
+        num = ler.nextInt();
         System.out.printf((n%2==0) ? "Seu numero é par!" : "Seu numero é impar!");
     }
 }
