@@ -5,6 +5,6 @@ public class Exer1{
         int num;
         System.out.printf("Digite um numero:");
         num = ler.nextInt();
-        System.out.printf((n%2==0) ? "Seu numero é par!" : "Seu numero é impar!");
+        System.out.printf((num%2==0) ? "Seu numero é par!" : "Seu numero é impar!");
     }
 }
